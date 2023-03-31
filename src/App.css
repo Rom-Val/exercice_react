@@ -28,6 +28,8 @@ body {
   margin: 2em 1em;
   padding: 1em;
   width: 80%;
+  border: 2px solid rgba(0, 0, 0, 0.75);
+  border-radius: 8px;
   transition: 0.2s ease-in-out;
 }
 
@@ -44,8 +46,9 @@ body {
   font-size: 1.2em;
   text-transform: uppercase;
   font-weight: bold;
-  border-radius: 4px;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  background-color: rgba(253, 253, 253, 0.35);
+  border-radius: 10px;
+  text-align: left;
 }
 
 .nonexistent {
